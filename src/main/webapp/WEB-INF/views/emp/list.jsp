@@ -11,13 +11,13 @@
 	<h3>Employee list :</h3>
 	<%-- 	<h4>${requestScope.emp_list}</h4> --%>
 	<form>
-		<table>
+		<table border="2px">
 			<tr>
-				<th>First Name<th>
-				<th>Last Name<th>
-				<th>Email<th>
-				<th>Joining Date<th>
-				<th>Employment Type<th>
+				<th>First Name</th>
+				<th>Last Name</th>
+				<th>Email</th>
+				<th>Joining Date</th>
+				<th>Employment Type</th>
 			</tr>
 			<c:forEach var="emp" items="${requestScope.emp_list}">
 			<tr>
